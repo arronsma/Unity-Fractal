@@ -311,6 +311,52 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &794575158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 794575159}
+  - component: {fileID: 794575160}
+  m_Layer: 0
+  m_Name: FractalProcedual
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &794575159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794575158}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.16451788, y: 0.321262, z: -0.45941812}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &794575160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794575158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a766a0252fa060143a96a3189809f16f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  depth: 4
+  mesh: {fileID: 0}
+  material: {fileID: 0}
 --- !u!1 &1898318970
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,12 +368,12 @@ GameObject:
   - component: {fileID: 1898318972}
   - component: {fileID: 1898318971}
   m_Layer: 0
-  m_Name: Fractal
+  m_Name: FractalFlat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1898318971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -340,8 +386,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ea1c7c6dbb636940a5eb6c9fd76a528, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  depth: 3
-  mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  depth: 8
+  mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 3}
   material: {fileID: 2100000, guid: 675c1793ca3b68f4198cea23cc83ef69, type: 2}
 --- !u!4 &1898318972
 Transform:
@@ -434,8 +480,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972823128}
-  m_LocalRotation: {x: -0.18571927, y: -0.031223202, z: 0.005890009, w: -0.982089}
-  m_LocalPosition: {x: -0.5057263, y: 1.2703853, z: -1.6532688}
+  m_LocalRotation: {x: 0.24412769, y: 0.6695803, z: -0.2492673, w: 0.65569025}
+  m_LocalPosition: {x: -4.5659056, y: 4.801363, z: -0.28040242}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
